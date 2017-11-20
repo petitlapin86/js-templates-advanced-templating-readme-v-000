@@ -6,7 +6,7 @@ Handlebars.registerHelper('comment_body', function() {
     return new Handlebars.SafeString("<strong>" + this.body + "</strong>")
   }
 })
- 
+
 function loadIssues() {
   //...
 }
